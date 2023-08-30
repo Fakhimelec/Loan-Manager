@@ -1,0 +1,406 @@
+
+/* Style Classes For Wide Screens (Wider That 820px)*/
+/*############################################################################*/
+/* Body Properties*/
+body {
+    /*background-image: linear-gradient(rgba(255,255,255,0), 
+                            rgba(255,255,255,0)), 
+                    url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    margin: 0;
+    font-family: titr;
+    background-color: rgb(90, 90, 90);
+}
+
+/*############################################################################*/
+/* Menu Bar Properties*/
+
+.topnav {
+  overflow: hidden;
+  display: block;
+  background-color: #333;
+  position: fixed;
+  margin: 0 auto;
+  z-index:2;
+  top: 75px;
+  width: 100%;
+  float: right;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(255,255,0);
+  color: black;
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+.topnav a:active {
+  background-color: rgb(255,180,0);
+}
+
+.topnav .icon {
+  display: none;
+  float:right;
+}
+
+.topnav .disblock{
+    display: none;
+    pointer-events: none;
+    cursor: default;
+}
+
+/*############################################################################*/
+/* Header Properties*/
+h1 {
+    font-size:2.5em;
+    color:yellow;
+    text-align:center;
+    background-color: rgb(90, 90, 90);
+    margin: -5px auto ;
+    padding:2px 0 50px 0;
+    width:100%;
+    font-family:titr;
+    position: fixed;
+    z-index:1;
+}
+h2 {
+    font-size:2.5em; 
+    text-align:center;
+    font-family:titr;    
+}
+h3 {
+    font-size:1em;
+    color:orange;
+    text-align:center;
+    margin: 105px 0 -80px 0 ;
+    font-family:titr;    
+}
+
+.status{
+    color:white;
+    font-size:1.5em;
+    font-weight:bold;
+    text-align:center;
+    margin-top:5vh;
+}
+/*############################################################################*/
+/* Form Properties*/
+form {
+    border: 3px solid #f1f1f1;
+    border-radius: 5px 55px 5px 55px;
+    font-family:titr;
+    text-align:center;
+}
+/*############################################################################*/
+/* DashBoard Properties*/
+
+.dashboard {
+    font-family: zar;
+    font-weight: bolder;
+    color: white;
+    font-size: 100%;
+    text-align: right;
+    
+    width:100%;
+}
+
+.dashboard form{
+    border: none;
+    width: 100%;
+}
+
+.dashboard button{
+    font-family: koodak;
+    font-weight: bold;
+    text-align: center;
+    background-color: orange;
+    margin: 0 0.3% 1% 0.3%;
+    width: auto;
+    float: left;
+}
+
+.dashboard label{
+    padding: 1em 0.5em 1em 0.5em;
+    width: auto;
+}
+
+.dashboard input[type=text] {
+    margin-top: 0;
+    border-radius: 5px;
+    background-color: #d4d1ff;
+    height:35px;
+    width: 100%;
+}
+.dashboard input[type=search] {
+    margin: 5px 0 5px 0;
+    background: url('images/search.svg');
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    padding: 9px 4px 9px 40px;
+    float:right; 
+    text-align: right; 
+    font-size: 100%;
+    border-radius: 5px;
+    height: auto;
+    width: auto;
+}
+
+.dashboard input[type=checkbox]{
+    margin: 20px 0 20px 10px;
+    outline: none;
+    transform: scale(1.5);
+    width: auto;
+    cursor: pointer;
+}
+.dashboard input[type=number]{
+    margin-top: 1.5em;
+    margin-left: 1%;
+    text-align:center;
+    outline: none;
+    width: 4vw;
+    height: auto;
+    cursor: pointer;
+}
+.dashboard select {
+    margin: 5px 10px 5px 10px;
+    text-align: center;
+}
+/*############################################################################*/
+/* Input (Global) Properties*/            
+input[type=text], input[type=password] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius:5px;
+  box-sizing: border-box;
+  text-align: center;
+  width:25%;
+}
+
+/*################################################################################################################*/
+/* Images Properties*/
+            
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 15%;
+  border-radius: 50%;
+}
+
+/*################################################################################################################*/
+/* Button Properties*/
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius:10px;
+  cursor: pointer;
+  width: 25%;
+}
+
+button:hover {
+  opacity: 0.8;
+  background-color: rgb(150, 150, 255);
+  transition-duration: 0.9s;
+}
+
+/*################################################################################################################*/
+/* Table Properties*/
+.table_div {
+    position:relative;
+    overflow:scroll;
+    bottom:5px;
+    width:100%;
+    height:450px;
+}
+
+.table_caption {
+    width:100%;
+    margin: 5% 0 0 0;
+    text-align:center;
+    display:block;
+}
+
+table {
+    width: 100%;
+    border: 3px solid #ffffff;
+    border-radius: 5px;
+    border-spacing: 3px;
+    font-size: 18px;
+    font-family: zar;
+}
+
+table thead th {
+    position: sticky;
+    top:1px;
+    cursor: pointer; 
+    text-align: right;
+    border:1px solid rgb(255, 255, 255);
+    border-radius: 0px 0px 20px 20px;
+    padding: 12px;
+    background-color:rgb(194, 194, 21);
+
+}
+
+table tbody {
+  border-radius: 15px;
+  font-size: 22px;
+}
+
+table td {
+  text-align: right;
+  border:1px solid rgb(130, 132, 225);
+  border-radius: 15px;
+  padding: 10px;
+}
+
+table tr {
+  /*border-bottom: 1px solid #ddd;
+  background-color: rgb(255, 255, 179);*/
+  border:none
+}
+
+table tr:nth-child(odd){
+  background-color: rgb(80, 108, 179);
+}
+
+table caption {
+  font-size: 150%;
+  font-weight: bolder;
+  
+}
+
+/*################################################################################################################*/
+/* Exception Properties*/
+
+.container {
+    padding: 16px;
+    border-radius: 0 0 3px 50px;
+}
+
+span.password {
+  float: center;
+  padding-top: 16px;
+}    
+
+.error {
+   background: #F2DEDE;
+   color: #0c0101;
+   padding: 10px;
+   width: 25%;
+   border-radius: 5px;
+   margin: 0px auto;
+}
+
+/* Change styles on Less wide screens (Less Than 820px Wide) Like Mobile*/
+@media screen and (max-width: 950px) {
+
+    .topnav a {
+        display: none;
+        float: right;
+        text-align: right;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+    .topnav.responsive {
+        float: right;
+        text-align:right;
+        z-index:2;
+    }
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: right;
+    }
+    .topnav.responsive .disblock{
+        display: block;
+    }
+    
+    h1 {
+        z-index:1;
+    }
+    
+    h3 {
+        font-size:1em;
+        margin: 115px 0 -80px 0 ;
+    }
+    
+    input[type=text], input[type=password] {
+        width: 100%;
+
+    }
+
+    button {
+        width: 100%;
+    }
+    .dashboard button{
+        width: 100%;
+        float:none;
+    }
+    
+    .dashboard input[type=search] {
+        width: 100%;
+        float:none;
+    }
+
+    .status{
+        font-size:1em;
+    }
+    
+    .error{
+        width: 100%;
+    }
+
+    .table_div {
+        bottom:auto;
+        width:100%;
+        height:500px;
+    }
+    .table_caption {
+        width:100%;
+        text-align:center;
+        display:block;
+    }
+    table {
+        font-size: 10px;
+        margin-top:20px;
+    }
+    table thead th {
+        position: sticky;
+        top:1px;
+    }
+    
+    table tbody {
+      border-radius: 15px;
+      font-size: 12px;
+    }
+    table td {
+        
+      border-radius: 15px;
+      padding: 5px;
+    }
+}
