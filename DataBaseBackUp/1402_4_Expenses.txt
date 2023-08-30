@@ -1,0 +1,4 @@
+Expense Number,Expense Name,Expense Price,Year Date,Month Date,Day Date,Total Expense,Details
+5000000,هزینه از ابتدای تاسیس صندوق,10581600,1401,6,1,10581600,
+5000001,خرید دفتر روزنامه,60000,1401,7,15,10641600,
+5000002,خرج جلسه صندوق,9540000,1401,12,5,20181600,

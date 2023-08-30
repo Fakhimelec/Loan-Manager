@@ -1,0 +1,8 @@
+As Payments Are Calculated Every Month, A New Set Of BackUps Will Be Saved Here.
+Database Tables member_list, loan_list, expense_list, lottery_list and balance_list
+Will Be Saved Into Comma Delimited Text Files Each Stamped With Year_Month_ Label
+In File Names.
+Later These Files Will Be Used To Load Specific Date's Tables Into The Database.
+For Loading These Tables, There Are Two Variables In The File "DBLoarde.php" That 
+Should Be Adjusted To The Corresponding Year And Month And Then, "DBLoader.php"
+Should Be Called Through Any Browser.
